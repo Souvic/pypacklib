@@ -1,5 +1,4 @@
-# Single command for python package creation from one/multiple .py files
-> Make packaging fun again!
+# Single command for python package creation from one/multiple .py files ( _Make packaging fun again!_ )
 [![License: MIT](https://img.shields.io/github/license/Souvic/pypacklib)](https://opensource.org/licenses/MIT)
 [![stars](https://img.shields.io/github/stars/Souvic/pypacklib)]()
 [![Github All Releases](https://img.shields.io/github/downloads/Souvic/pypacklib/total.svg)]()
