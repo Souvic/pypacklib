@@ -61,7 +61,7 @@ pypack
 3. Input no at the first prompt.
 4. Follow the instructions that will appear.
 
-# Extras to save GitHub and PyPI passtokens
+# Extras to save GitHub and PyPI passtokens (save typing time)
 
 ### Set up your $HOME/.pypirc file with the passtoken like this to save twine password to avoid typing username and password everytime [Doc Link](https://twine.readthedocs.io/en/latest/#keyring-support)
 Create $HOME/.pypirc and paste the below code replacing only _yourpasstoken
