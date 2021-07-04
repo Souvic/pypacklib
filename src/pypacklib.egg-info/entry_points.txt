@@ -1,0 +1,3 @@
+[console_scripts]
+pypack = pypacklib:main
+
