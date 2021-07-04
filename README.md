@@ -1,4 +1,5 @@
 # Single command for python package creation from one/multiple .py files
+> Make packaging fun again!
 [![License: MIT](https://img.shields.io/github/license/Souvic/pypacklib)](https://opensource.org/licenses/MIT)
 [![stars](https://img.shields.io/github/stars/Souvic/pypacklib)]()
 [![Github All Releases](https://img.shields.io/github/downloads/Souvic/pypacklib/total.svg)]()
@@ -42,7 +43,8 @@ pip3 install pypacklib
 pip3 install git+https://github.com/Souvic/pypacklib.git
 ```
 
-# One interactive command with easy-to-follow prompts to create/upload/update them all!
+# One command to create/upload/update them all!
+Easy-to-follow prompts will guide you through the process
 ```
 pypack
 ```
