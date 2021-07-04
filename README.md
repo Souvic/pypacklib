@@ -24,10 +24,13 @@ We collect desired packagename, author name and a few info interactively and cre
 You can use multiple python scripts too.
 To use multiple scripts give a space seperated list when asked for file locations with main file (the file where all the functions and classes you want user to use is present) at the start.
 For simple packaging, one single file is enough.
-- [x] Lightweight
-- [x] Easiest to use with only one interactive command
+- [x] Supports python 3.6+ 
+- [x] Autopopulates setup files, README.md and version etc , uploads to GitHub and PyPI
+- [x] Easily Customizable
+- [x] Easiest to use with only single interactive command
+- [ ] 1 min video tutorial
 
-> Fun part: This package is also created by running the script located at src/pypacklib/\_\_init\_\_.py
+> Fun part: This package is also created by running the script located at src/pypacklib/\_\_main\_\_.py
 
 ## Install from PyPi
 ```
@@ -43,6 +46,7 @@ pip3 install git+https://github.com/Souvic/pypacklib.git
 ```
 pypack
 ```
+# Unnecessary detailed instructions (just see the 1 min video)
 
 ### To make a new package and upload to github from a some/one python file(s):
 1. Run the command _pypack_ (and just follow the interactive framework forgetting the lines\[2,3,4\] written below)
@@ -56,6 +60,9 @@ pypack
 2. Run the command _pypack_ (and just follow the interactive framework forgetting the lines\[2,3,4\] written below)
 3. Input no at the first prompt.
 4. Follow the instructions that will appear.
+
+# Extras to save GitHub and PyPI passtokens
+
 ### Set up your $HOME/.pypirc file with the passtoken like this to save twine password to avoid typing username and password everytime [Doc Link](https://twine.readthedocs.io/en/latest/#keyring-support)
 Create $HOME/.pypirc and paste the below code replacing only _yourpasstoken
 ```
