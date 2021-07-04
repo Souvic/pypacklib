@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pypacklib/__init__.py
+src/pypacklib/__main__.py
+src/pypacklib.egg-info/PKG-INFO
+src/pypacklib.egg-info/SOURCES.txt
+src/pypacklib.egg-info/dependency_links.txt
+src/pypacklib.egg-info/top_level.txt
