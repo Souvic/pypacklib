@@ -79,9 +79,9 @@ def create_package():
         exec("git push -u origin main")
         print("Done!!")
         print("All set up!!")
-        print(f"\n\n\n__________________________\nYou may now go to {rep_url[:-4]} and change atleast README.MD and description in setup.cfg")
+        print(f"\n\n\n__________________________\nYou may now go to {rep_url[:-4]} and change atleast README.md and description in setup.cfg")
         print("You may require to also change requirements.txt and install_requires,python_requires on setup.cfg if you feel so")
-        print("To upload to PyPI and reflect the new changes, run this command(cmpp) once again! This time you already have a github repo.")
+        print("To upload to PyPI and reflect the new changes, run this command(pypack) once again! This time you already have a github repo.")
      
     
 def uploadpackage():
